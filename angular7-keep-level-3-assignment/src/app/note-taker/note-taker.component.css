@@ -1,0 +1,10 @@
+.noteContainer {
+    width: 50vw;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.noteInputs {
+    display: flex;
+    flex-direction: column;
+}

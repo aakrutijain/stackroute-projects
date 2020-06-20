@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      #      authentication-database: dbAdmin
+      username: root
+      password: root123
+      database: UserServiceDB
+      port: 27071
+      host: localhost
+
+#msg: random

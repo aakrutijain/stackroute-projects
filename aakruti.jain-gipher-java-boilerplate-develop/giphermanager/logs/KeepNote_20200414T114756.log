@@ -1,0 +1,660 @@
+2020-04-14 11:47:58 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.giphermanager.controller.GifManagerControllerTest], using SpringBootContextLoader
+2020-04-14 11:47:58 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.giphermanager.controller.GifManagerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-14 11:47:58 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.giphermanager.controller.GifManagerControllerTest]: GifManagerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-14 11:47:59 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.giphermanager.GipherManagerApplication for test class com.stackroute.giphermanager.controller.GifManagerControllerTest
+2020-04-14 11:47:59 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-14 11:47:59 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@a3d9978, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61544ae6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b41dd5c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3b96c42e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5d066c7d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e461e41, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ba88be8, org.springframework.test.context.event.EventPublishingTestExecutionListener@56928307, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3899782c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1603cd68, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@9ebe38b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b23c30a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@38089a5a]
+2020-04-14 11:47:59 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.giphermanager.GipherManagerApplicationTests], using SpringBootContextLoader
+2020-04-14 11:47:59 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.giphermanager.GipherManagerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-14 11:47:59 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.giphermanager.GipherManagerApplicationTests]: GipherManagerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-14 11:47:59 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.giphermanager.GipherManagerApplication for test class com.stackroute.giphermanager.GipherManagerApplicationTests
+2020-04-14 11:47:59 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-14 11:47:59 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c18016b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@33aeca0b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@43aaf813, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@57ac5227, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ba302e0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@e98770d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1ae67cad, org.springframework.test.context.event.EventPublishingTestExecutionListener@2f6e28bc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7c098bb3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@31e4bb20, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@18cebaa5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@463b4ac8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@765f05af]
+2020-04-14 11:48:00 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.giphermanager.service.GifManagerServiceTest], using DelegatingSmartContextLoader
+2020-04-14 11:48:00 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.giphermanager.service.GifManagerServiceTest]: no resource found for suffixes {-context.xml}.
+2020-04-14 11:48:00 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.giphermanager.service.GifManagerServiceTest]: GifManagerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-14 11:48:00 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-14 11:48:00 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b44435b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ccca26f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@66b7550d, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3543df7d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7c541c15, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3542162a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@698122b2, org.springframework.test.context.event.EventPublishingTestExecutionListener@4212a0c8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e7aa82b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3b2c0e88, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5bd82fed, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@c1bd0be, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@476b0ae6]
+2020-04-14 11:48:00 [main] INFO  o.s.b.t.a.d.m.DataMongoTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.giphermanager.repository.GifManagerRepositoryTest], using SpringBootContextLoader
+2020-04-14 11:48:00 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.giphermanager.repository.GifManagerRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-14 11:48:00 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.giphermanager.repository.GifManagerRepositoryTest]: GifManagerRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-14 11:48:00 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.giphermanager.GipherManagerApplication for test class com.stackroute.giphermanager.repository.GifManagerRepositoryTest
+2020-04-14 11:48:00 [main] INFO  o.s.b.t.a.d.m.DataMongoTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-14 11:48:00 [main] INFO  o.s.b.t.a.d.m.DataMongoTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f0b0a5e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6035b93b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@320de594, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3dd1dc90, org.springframework.test.context.support.DirtiesContextTestExecutionListener@abf688e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@478ee483, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1a7288a3, org.springframework.test.context.event.EventPublishingTestExecutionListener@2974f221, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@58fe0499, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@686449f9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@665df3c6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@68b6f0d6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4044fb95]
+2020-04-14 11:48:06 [main] INFO  c.s.g.c.GifManagerControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-04-14 11:48:10 [main] WARN  o.s.w.c.s.GenericWebApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gifManagerController': Unsatisfied dependency expressed through field 'gifRecommendationProxy'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.stackroute.giphermanager.proxy.GifRecommendationProxy': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+2020-04-14 11:48:10 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-14 11:48:10 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gifRecommendationProxy in com.stackroute.giphermanager.controller.GifManagerController required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2020-04-14 11:48:10 [main] ERROR o.s.test.context.TestContextManager -
+				Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b41dd5c] to prepare test instance [com.stackroute.giphermanager.controller.GifManagerControllerTest@566e142]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:95)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:79)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:54)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gifManagerController': Unsatisfied dependency expressed through field 'gifRecommendationProxy'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.stackroute.giphermanager.proxy.GifRecommendationProxy': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.stackroute.giphermanager.proxy.GifRecommendationProxy': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1510)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1467)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 62 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:351)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1126)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:271)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:262)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 73 common frames omitted
+2020-04-14 11:48:10 [main] INFO  c.s.g.c.GifManagerControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-04-14 11:48:11 [main] WARN  o.s.w.c.s.GenericWebApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gifManagerController': Unsatisfied dependency expressed through field 'gifRecommendationProxy'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.stackroute.giphermanager.proxy.GifRecommendationProxy': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+2020-04-14 11:48:11 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-14 11:48:11 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gifRecommendationProxy in com.stackroute.giphermanager.controller.GifManagerController required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2020-04-14 11:48:11 [main] ERROR o.s.test.context.TestContextManager -
+				Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b41dd5c] to prepare test instance [com.stackroute.giphermanager.controller.GifManagerControllerTest@7675c171]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:95)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:79)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:54)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gifManagerController': Unsatisfied dependency expressed through field 'gifRecommendationProxy'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.stackroute.giphermanager.proxy.GifRecommendationProxy': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.stackroute.giphermanager.proxy.GifRecommendationProxy': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1510)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1467)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 62 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:351)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1126)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:271)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:262)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 73 common frames omitted
+2020-04-14 11:48:12 [main] INFO  c.s.g.c.GifManagerControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-04-14 11:48:13 [main] WARN  o.s.w.c.s.GenericWebApplicationContext -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gifManagerController': Unsatisfied dependency expressed through field 'gifRecommendationProxy'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.stackroute.giphermanager.proxy.GifRecommendationProxy': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+2020-04-14 11:48:13 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-14 11:48:13 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field gifRecommendationProxy in com.stackroute.giphermanager.controller.GifManagerController required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2020-04-14 11:48:13 [main] ERROR o.s.test.context.TestContextManager -
+				Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b41dd5c] to prepare test instance [com.stackroute.giphermanager.controller.GifManagerControllerTest@6314df3c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:95)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:79)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:54)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gifManagerController': Unsatisfied dependency expressed through field 'gifRecommendationProxy'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.stackroute.giphermanager.proxy.GifRecommendationProxy': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.stackroute.giphermanager.proxy.GifRecommendationProxy': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:178)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1266)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:260)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1510)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1467)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 62 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.openfeign.FeignContext' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:351)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1126)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:271)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:262)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:171)
+	... 73 common frames omitted
+2020-04-14 11:48:13 [main] INFO  c.s.g.GipherManagerApplicationTests -
+				No active profile set, falling back to default profiles: default
+2020-04-14 11:48:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-14 11:48:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 732ms. Found 1 MongoDB repository interfaces.
+2020-04-14 11:48:18 [main] WARN  o.s.boot.actuate.endpoint.EndpointId -
+				Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-14 11:48:19 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=16179745-f861-3239-b33a-7ee41f65d05e
+2020-04-14 11:48:20 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -
+				Bean 'com.stackroute.giphermanager.proxy.GifRecommendationProxy' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-14 11:48:21 [main] INFO  d.f.e.process.runtime.ProcessControl -
+				stopOrDestroyProcess: process hasn't exited 
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				note: noprealloc may hurt performance in many applications
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.312+0000 I CONTROL  [initandlisten] MongoDB starting : pid=25289 port=35269 dbpath=/tmp/embedmongo-db-d94d33f1-0eb0-43fe-bd7a-91dec6f55abe 64-bit host=ip-172-31-21-44
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.312+0000 I CONTROL  [initandlisten] db version v3.5.5
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.312+0000 I CONTROL  [initandlisten] git version: 98515c812b6fa893613f063dae568ff8319cbfbd
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.312+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.312+0000 I CONTROL  [initandlisten] modules: none
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.312+0000 I CONTROL  [initandlisten] build environment:
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.312+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.312+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.312+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 35269 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-d94d33f1-0eb0-43fe-bd7a-91dec6f55abe", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.377+0000 I STORAGE  [initandlisten] 
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.377+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.377+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.377+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7276M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),,log=(enabled=false),
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.477+0000 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.477+0000 I CONTROL  [initandlisten] 
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.477+0000 I CONTROL  [initandlisten] ** NOTE: This is a development version (3.5.5) of MongoDB.
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.477+0000 I CONTROL  [initandlisten] **       Not recommended for production.
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.477+0000 I CONTROL  [initandlisten] 
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.495+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-d94d33f1-0eb0-43fe-bd7a-91dec6f55abe/diagnostic.data'
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.523+0000 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.523+0000 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.523+0000 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.524+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2020-04-14 11:48:21 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:21.529+0000 I NETWORK  [thread1] waiting for connections on port 35269
+2020-04-14 11:48:21 [main] INFO  d.f.embed.mongo.MongodExecutable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@2c7c898a
+2020-04-14 11:48:22 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:35269], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-14 11:48:22 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:35269 to client view of cluster
+2020-04-14 11:48:22 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:22.926+0000 I NETWORK  [thread1] connection accepted from 127.0.0.1:38562 #1 (1 connection now open)
+2020-04-14 11:48:22 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:22.967+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:38562 conn1: { driver: { name: "mongo-java-driver|legacy", version: "3.11.2" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "4.15.0-96-generic" }, platform: "Java/Ubuntu/11.0.5+10-post-Ubuntu-2ubuntu116.04" }
+2020-04-14 11:48:23 [cluster-ClusterId{value='5e95a306d9fe5b0b2c25375a', description='null'}-localhost:35269] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:35269
+2020-04-14 11:48:23 [cluster-ClusterId{value='5e95a306d9fe5b0b2c25375a', description='null'}-localhost:35269] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:35269, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 5, 5]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=3034764}
+2020-04-14 11:48:23 [cluster-ClusterId{value='5e95a306d9fe5b0b2c25375a', description='null'}-localhost:35269] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2020-04-14 11:48:26 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-04-14 11:48:26 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-14 11:48:26 [main] INFO  c.n.config.DynamicPropertyFactory -
+				DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4a225014
+2020-04-14 11:48:29 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-14 11:48:30 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 11:48:30 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-04-14 11:48:30 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-14 11:48:31 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:48:32 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -
+				You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-14 11:48:33 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2020-04-14 11:48:33 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2020-04-14 11:48:33 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2020-04-14 11:48:33 [main] INFO  o.s.a.r.c.CachingConnectionFactory -
+				Attempting to connect to: [localhost:5672]
+2020-04-14 11:48:33 [main] INFO  o.s.a.r.l.SimpleMessageListenerContainer -
+				Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused (Connection refused)
+2020-04-14 11:48:33 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  o.s.a.r.c.CachingConnectionFactory -
+				Attempting to connect to: [localhost:5672]
+2020-04-14 11:48:33 [main] INFO  c.s.g.GipherManagerApplicationTests -
+				Started GipherManagerApplicationTests in 20.697 seconds (JVM running for 41.564)
+2020-04-14 11:48:35 [main] INFO  c.s.g.r.GifManagerRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-04-14 11:48:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-14 11:48:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 25ms. Found 1 MongoDB repository interfaces.
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				note: noprealloc may hurt performance in many applications
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.524+0000 I CONTROL  [initandlisten] MongoDB starting : pid=25708 port=40485 dbpath=/tmp/embedmongo-db-941ed083-e26b-494d-9774-e1ddd5e8ba21 64-bit host=ip-172-31-21-44
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.524+0000 I CONTROL  [initandlisten] db version v3.5.5
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.524+0000 I CONTROL  [initandlisten] git version: 98515c812b6fa893613f063dae568ff8319cbfbd
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.525+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.534+0000 I CONTROL  [initandlisten] modules: none
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.535+0000 I CONTROL  [initandlisten] build environment:
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.535+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.535+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.535+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 40485 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-941ed083-e26b-494d-9774-e1ddd5e8ba21", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.616+0000 I STORAGE  [initandlisten] 
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.641+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.642+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.643+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7276M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),,log=(enabled=false),
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.876+0000 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.877+0000 I CONTROL  [initandlisten] 
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.889+0000 I CONTROL  [initandlisten] ** NOTE: This is a development version (3.5.5) of MongoDB.
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.890+0000 I CONTROL  [initandlisten] **       Not recommended for production.
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.890+0000 I CONTROL  [initandlisten] 
+2020-04-14 11:48:36 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:36.941+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-941ed083-e26b-494d-9774-e1ddd5e8ba21/diagnostic.data'
+2020-04-14 11:48:37 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:37.014+0000 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2020-04-14 11:48:37 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:37.014+0000 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2020-04-14 11:48:37 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:37.015+0000 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2020-04-14 11:48:37 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:37.015+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2020-04-14 11:48:37 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:37.016+0000 I NETWORK  [thread1] waiting for connections on port 40485
+2020-04-14 11:48:37 [main] INFO  d.f.embed.mongo.MongodExecutable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@22edca96
+2020-04-14 11:48:37 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:40485], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-14 11:48:37 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:40485 to client view of cluster
+2020-04-14 11:48:37 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:37.042+0000 I NETWORK  [thread1] connection accepted from 127.0.0.1:37862 #1 (1 connection now open)
+2020-04-14 11:48:37 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:37.053+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:37862 conn1: { driver: { name: "mongo-java-driver|legacy", version: "3.11.2" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "4.15.0-96-generic" }, platform: "Java/Ubuntu/11.0.5+10-post-Ubuntu-2ubuntu116.04" }
+2020-04-14 11:48:37 [cluster-ClusterId{value='5e95a315d9fe5b0b2c25375b', description='null'}-localhost:40485] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:40485
+2020-04-14 11:48:37 [cluster-ClusterId{value='5e95a315d9fe5b0b2c25375b', description='null'}-localhost:40485] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:40485, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 5, 5]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=771827}
+2020-04-14 11:48:37 [cluster-ClusterId{value='5e95a315d9fe5b0b2c25375b', description='null'}-localhost:40485] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2020-04-14 11:48:37 [main] INFO  c.s.g.r.GifManagerRepositoryTest -
+				Started GifManagerRepositoryTest in 2.11 seconds (JVM running for 45.224)
+2020-04-14 11:48:37 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:37.945+0000 I NETWORK  [thread1] connection accepted from 127.0.0.1:37868 #2 (2 connections now open)
+2020-04-14 11:48:37 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:37.964+0000 I NETWORK  [conn2] received client metadata from 127.0.0.1:37868 conn2: { driver: { name: "mongo-java-driver|legacy", version: "3.11.2" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "4.15.0-96-generic" }, platform: "Java/Ubuntu/11.0.5+10-post-Ubuntu-2ubuntu116.04" }
+2020-04-14 11:48:37 [main] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:3, serverValue:2}] to localhost:40485
+2020-04-14 11:48:38 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:3, serverValue:2}] to localhost:40485 because the pool has been closed.
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.509+0000 I -        [conn2] end connection 127.0.0.1:37868 (2 connections now open)
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.533+0000 I -        [conn1] end connection 127.0.0.1:37862 (1 connection now open)
+2020-04-14 11:48:38 [SpringContextShutdownHook] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.564+0000 I NETWORK  [thread1] connection accepted from 127.0.0.1:37870 #3 (1 connection now open)
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.581+0000 I COMMAND  [conn3] terminating, shutdown command received
+2020-04-14 11:48:38 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application GIPHERMANAGER with eureka with status DOWN
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.581+0000 I NETWORK  [conn3] shutdown: going to close listening sockets...
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.581+0000 I NETWORK  [conn3] closing listening socket: 7
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.581+0000 I NETWORK  [conn3] closing listening socket: 8
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.581+0000 I NETWORK  [conn3] removing socket file: /tmp/mongodb-40485.sock
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.581+0000 I NETWORK  [conn3] shutdown: going to flush diaglog...
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.581+0000 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.583+0000 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+2020-04-14 11:48:38 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer -
+				Waiting for workers to finish.
+2020-04-14 11:48:38 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer -
+				Successfully waited for workers to finish.
+2020-04-14 11:48:38 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.639+0000 I STORAGE  [conn3] shutdown: removing fs lock...
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.639+0000 I CONTROL  [conn3] now exiting
+2020-04-14 11:48:38 [Thread-19] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.639+0000 I CONTROL  [conn3] shutting down with code:0
+2020-04-14 11:48:38 [SpringContextShutdownHook] INFO  o.s.a.r.l.SimpleMessageListenerContainer -
+				Shutdown ignored - container is not active already
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.742+0000 I -        [conn1] end connection 127.0.0.1:38562 (1 connection now open)
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.766+0000 I NETWORK  [thread1] connection accepted from 127.0.0.1:38590 #2 (1 connection now open)
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.769+0000 I COMMAND  [conn2] terminating, shutdown command received
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.770+0000 I NETWORK  [conn2] shutdown: going to close listening sockets...
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.770+0000 I NETWORK  [conn2] closing listening socket: 7
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.770+0000 I NETWORK  [conn2] closing listening socket: 8
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.770+0000 I NETWORK  [conn2] removing socket file: /tmp/mongodb-35269.sock
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.770+0000 I NETWORK  [conn2] shutdown: going to flush diaglog...
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.770+0000 I FTDC     [conn2] Shutting down full-time diagnostic data capture
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.772+0000 I STORAGE  [conn2] WiredTigerKVEngine shutting down
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.844+0000 I STORAGE  [conn2] shutdown: removing fs lock...
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.844+0000 I CONTROL  [conn2] now exiting
+2020-04-14 11:48:38 [Thread-13] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:38.844+0000 I CONTROL  [initandlisten] shutting down with code:0

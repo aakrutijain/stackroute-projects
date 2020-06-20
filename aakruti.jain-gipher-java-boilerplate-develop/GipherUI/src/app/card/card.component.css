@@ -1,0 +1,13 @@
+.example-card {
+    max-width: 20vw;
+}
+
+.example-header-image {
+    background-size: cover;
+}
+
+mat-card-title{
+    font-size: 1em;
+    padding-top:2vh;
+}
+  

@@ -1,0 +1,116 @@
+# Dockerfile has been added in all micro-services, you need to dockerize all micro-services and add docker-compose.yml file
+version: '2'
+services:
+  mysql:
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    network_mode: host
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_HOST: localhost
+      MYSQL_DATABASE: keep
+      MYSQL_USER: app_root
+      MYSQL_PASSWORD: root123
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    network_mode: host
+    environment:
+      MONGO_USERNAME: root
+      MONGO_PASSWORD: root123
+      MONGO_DATABASE: CategoryServiceDB
+      MONGO_PORT: 27017
+      MONGO_HOST: localhost
+
+  UserAuthentication-service-app:
+    image: userauthentication
+    build: UserAuthentication-Service
+    restart: always
+    network_mode: host
+    depends_on:
+      - mysql
+    ports:
+      - 9100:9100
+    expose:
+      - 9100
+
+  CategoryService-service-app:
+    image: categoryservice
+    build: CategoryService
+    restart: always
+    network_mode: host
+    depends_on:
+      - mongo
+    ports:
+      - 9400:9400
+    expose:
+      - 9400
+
+  NoteService-service-app:
+    image: noteservice
+    build: NoteService
+    restart: always
+    network_mode: host
+    depends_on:
+      - mongo
+    ports:
+      - 9300:9300
+    expose:
+      - 9300
+
+  UserService-service-app:
+    image: userservice
+    build: UserService
+    restart: always
+    network_mode: host
+    depends_on:
+      - mongo
+    ports:
+      - 9200:9200
+    expose:
+      - 9200
+
+  ReminderService-service-app:
+    image: reminderservice
+    build: ReminderService
+    restart: always
+    network_mode: host
+    depends_on:
+      - mongo
+    ports:
+      - 9500:9500
+    expose:
+      - 9500
+
+  EurekaServer-service-app:
+    image: eurekaserver
+    build: EurekaServer
+    restart: always
+    network_mode: host
+    ports:
+      - 8761:8761
+    expose:
+      - 8761
+
+  ZuulServer-service-app:
+    image: zuulserver
+    build: ZuulServer
+    restart: always
+    network_mode: host
+    ports:
+      - 8765:8765
+    expose:
+      - 8765
+
+  ConfigServer-service-app:
+    image: configserver
+    build: ConfigServer
+    restart: always
+    network_mode: host
+    ports:
+      - 8888:8888
+    expose:
+      - 8888

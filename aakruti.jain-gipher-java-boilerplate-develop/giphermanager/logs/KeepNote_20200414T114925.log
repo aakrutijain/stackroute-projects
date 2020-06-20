@@ -1,0 +1,44 @@
+2020-04-14 11:49:27 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.giphermanager.controller.GifManagerControllerTest], using SpringBootContextLoader
+2020-04-14 11:49:27 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.giphermanager.controller.GifManagerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-14 11:49:27 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.giphermanager.controller.GifManagerControllerTest]: GifManagerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-14 11:49:27 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.giphermanager.GipherManagerApplication for test class com.stackroute.giphermanager.controller.GifManagerControllerTest
+2020-04-14 11:49:27 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-14 11:49:27 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d9f158f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@45efd90f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b8729ff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@61710c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3214ee6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@383dc82c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4a07d605, org.springframework.test.context.event.EventPublishingTestExecutionListener@74287ea3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d7758be, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2bdd8394, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f9edf14, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@68746f22, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2f01783a]
+2020-04-14 11:49:32 [main] INFO  c.s.g.c.GifManagerControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-04-14 11:49:39 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:49:41 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2020-04-14 11:49:41 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2020-04-14 11:49:41 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 93 ms
+2020-04-14 11:49:42 [main] INFO  c.s.g.c.GifManagerControllerTest -
+				Started GifManagerControllerTest in 12.631 seconds (JVM running for 18.198)
+2020-04-14 11:49:42 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2020-04-14 11:49:42 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2020-04-14 11:49:42 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2020-04-14 11:49:42 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2020-04-14 11:49:42 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2020-04-14 11:49:42 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2020-04-14 11:49:42 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2020-04-14 11:49:42 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2020-04-14 11:49:42 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2020-04-14 11:49:43 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'

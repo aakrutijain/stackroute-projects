@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaService" />
+        <module name="gipherrecommendersystem" />
+        <module name="giphermanager" />
+        <module name="ZuulServer" />
+        <module name="accountmanager" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accountmanager" target="1.8" />
+      <module name="EurekaService" target="1.8" />
+      <module name="gipher" target="1.8" />
+      <module name="giphermanager" target="1.8" />
+      <module name="gipherrecommendersystem" target="1.8" />
+      <module name="ZuulServer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaService" options="-parameters" />
+      <module name="ZuulServer" options="-parameters" />
+      <module name="accountmanager" options="-parameters" />
+      <module name="giphermanager" options="-parameters" />
+      <module name="gipherrecommendersystem" options="-parameters" />
+    </option>
+  </component>
+</project>

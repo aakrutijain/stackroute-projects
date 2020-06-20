@@ -1,0 +1,28 @@
+2020-03-04 08:33:57 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-21-44 with PID 5491 (started by ubuntu in /home/ubuntu/Desktop/stackroute/KeepNote-Step6-Boilerplate/NoteService)
+2020-03-04 08:33:57 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-03-04 08:33:59 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Started NoteControllerTest in 2.553 seconds (JVM running for 3.688)
+2020-03-04 08:33:59 [main] INFO  c.s.k.controller.NoteController -
+				note created
+2020-03-04 08:33:59 [main] ERROR c.s.k.controller.NoteController -
+				Note already exists
+2020-03-04 08:33:59 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-21-44 with PID 5491 (started by ubuntu in /home/ubuntu/Desktop/stackroute/KeepNote-Step6-Boilerplate/NoteService)
+2020-03-04 08:33:59 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2020-03-04 08:34:01 [main] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Before execution of NoteService Advice : jwtFilter
+2020-03-04 08:34:01 [main] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After execution of NoteService Advice : jwtFilter
+2020-03-04 08:34:01 [main] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Execution of After Returning NoteService Advice : jwtFilter : org.springframework.boot.web.servlet.FilterRegistrationBean@46b21632
+2020-03-04 08:34:02 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 2.199 seconds (JVM running for 6.555)
+2020-03-04 08:34:02 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				Starting NoteRepositoryTest on ip-172-31-21-44 with PID 5491 (started by ubuntu in /home/ubuntu/Desktop/stackroute/KeepNote-Step6-Boilerplate/NoteService)
+2020-03-04 08:34:02 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-03-04 08:34:02 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				Started NoteRepositoryTest in 0.368 seconds (JVM running for 7.03)

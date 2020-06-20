@@ -1,0 +1,268 @@
+2020-04-14 11:47:10 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.accountmanager.controller.AccountManagerControllerTest], using SpringBootContextLoader
+2020-04-14 11:47:10 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.accountmanager.controller.AccountManagerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-14 11:47:10 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.accountmanager.controller.AccountManagerControllerTest]: AccountManagerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-14 11:47:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.accountmanager.AccountmanagerApplication for test class com.stackroute.accountmanager.controller.AccountManagerControllerTest
+2020-04-14 11:47:11 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-14 11:47:11 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@18a136ac, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77d67cf3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6dee4f1b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@176b3f44, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6ee6f53, org.springframework.test.context.transaction.TransactionalTestExecutionListener@421bba99, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5d12a356, org.springframework.test.context.event.EventPublishingTestExecutionListener@134d26af, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@66ac5762, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@797cf65c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@31bcf236, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b3ed2f0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4fad9bb2]
+2020-04-14 11:47:11 [main] INFO  o.s.b.t.a.o.j.DataJpaTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.accountmanager.repository.AccountManagerRepositoryTest], using SpringBootContextLoader
+2020-04-14 11:47:11 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.accountmanager.repository.AccountManagerRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-14 11:47:11 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.accountmanager.repository.AccountManagerRepositoryTest]: AccountManagerRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-14 11:47:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.accountmanager.AccountmanagerApplication for test class com.stackroute.accountmanager.repository.AccountManagerRepositoryTest
+2020-04-14 11:47:11 [main] INFO  o.s.b.t.a.o.j.DataJpaTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-14 11:47:11 [main] INFO  o.s.b.t.a.o.j.DataJpaTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d64e326, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13f95696, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@cd1d761, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68be8808, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32193bea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b8d96d9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@69653e16, org.springframework.test.context.event.EventPublishingTestExecutionListener@758705fa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ebaa6cb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@906d29b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@49d3c823, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@436bc36, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5fe1ce85]
+2020-04-14 11:47:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.accountmanager.AccountmanagerApplicationTests], using SpringBootContextLoader
+2020-04-14 11:47:11 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.accountmanager.AccountmanagerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-14 11:47:11 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.accountmanager.AccountmanagerApplicationTests]: AccountmanagerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-14 11:47:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.accountmanager.AccountmanagerApplication for test class com.stackroute.accountmanager.AccountmanagerApplicationTests
+2020-04-14 11:47:12 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-14 11:47:12 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@269f4bad, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5ed731d0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3234f74e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7bc10d84, org.springframework.test.context.support.DirtiesContextTestExecutionListener@275fe372, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40e10ff8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@557a1e2d, org.springframework.test.context.event.EventPublishingTestExecutionListener@26a4842b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e38a7fe, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@366ef90e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@33e01298, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@31e75d13, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@a5b0b86]
+2020-04-14 11:47:18 [main] INFO  c.s.a.c.AccountManagerControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-04-14 11:47:23 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:47:24 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2020-04-14 11:47:24 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2020-04-14 11:47:24 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 39 ms
+2020-04-14 11:47:24 [main] INFO  c.s.a.c.AccountManagerControllerTest -
+				Started AccountManagerControllerTest in 10.121 seconds (JVM running for 19.455)
+2020-04-14 11:47:24 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2020-04-14 11:47:24 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2020-04-14 11:47:24 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2020-04-14 11:47:25 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2020-04-14 11:47:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2020-04-14 11:47:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2020-04-14 11:47:26 [main] INFO  c.s.a.r.AccountManagerRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-04-14 11:47:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-14 11:47:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-14 11:47:27 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 153ms. Found 1 JPA repository interfaces.
+2020-04-14 11:47:27 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-14 11:47:28 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-14 11:47:28 [main] INFO  o.h.annotations.common.Version -
+				HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-14 11:47:28 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2020-04-14 11:47:30 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2020-04-14 11:47:30 [main] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-14 11:47:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-14 11:47:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-14 11:47:33 [main] INFO  c.s.a.r.AccountManagerRepositoryTest -
+				Started AccountManagerRepositoryTest in 7.754 seconds (JVM running for 28.777)
+2020-04-14 11:47:33 [main] INFO  o.s.t.c.t.TransactionContext -
+				Began transaction (1) for test context [DefaultTestContext@7c5fbde4 testClass = AccountManagerRepositoryTest, testInstance = com.stackroute.accountmanager.repository.AccountManagerRepositoryTest@7021bb55, testMethod = registerUserTest@AccountManagerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6023b54f testClass = AccountManagerRepositoryTest, locations = '{}', classes = '{class com.stackroute.accountmanager.AccountmanagerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@14d9ae22 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@79c97cb, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@44a59da3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7c51f34b, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@980521da, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6853425f], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f2a5064]; rollback [true]
+2020-04-14 11:47:34 [main] INFO  o.s.t.c.t.TransactionContext -
+				Rolled back transaction for test: [DefaultTestContext@7c5fbde4 testClass = AccountManagerRepositoryTest, testInstance = com.stackroute.accountmanager.repository.AccountManagerRepositoryTest@7021bb55, testMethod = registerUserTest@AccountManagerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6023b54f testClass = AccountManagerRepositoryTest, locations = '{}', classes = '{class com.stackroute.accountmanager.AccountmanagerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@14d9ae22 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@79c97cb, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@44a59da3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7c51f34b, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@980521da, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6853425f], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]
+2020-04-14 11:47:34 [main] INFO  o.s.t.c.t.TransactionContext -
+				Began transaction (1) for test context [DefaultTestContext@7c5fbde4 testClass = AccountManagerRepositoryTest, testInstance = com.stackroute.accountmanager.repository.AccountManagerRepositoryTest@221961f2, testMethod = loginSuccessTest@AccountManagerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6023b54f testClass = AccountManagerRepositoryTest, locations = '{}', classes = '{class com.stackroute.accountmanager.AccountmanagerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@14d9ae22 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@79c97cb, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@44a59da3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7c51f34b, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@980521da, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6853425f], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@2f2a5064]; rollback [true]
+2020-04-14 11:47:34 [main] INFO  o.s.t.c.t.TransactionContext -
+				Rolled back transaction for test: [DefaultTestContext@7c5fbde4 testClass = AccountManagerRepositoryTest, testInstance = com.stackroute.accountmanager.repository.AccountManagerRepositoryTest@221961f2, testMethod = loginSuccessTest@AccountManagerRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6023b54f testClass = AccountManagerRepositoryTest, locations = '{}', classes = '{class com.stackroute.accountmanager.AccountmanagerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@14d9ae22 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@79c97cb, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@44a59da3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7c51f34b, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@980521da, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6853425f], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]
+2020-04-14 11:47:35 [main] INFO  c.s.a.AccountmanagerApplicationTests -
+				No active profile set, falling back to default profiles: default
+2020-04-14 11:47:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-14 11:47:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-14 11:47:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+2020-04-14 11:47:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-14 11:47:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-14 11:47:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.stackroute.accountmanager.repository.AccountManagerRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2020-04-14 11:47:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 17ms. Found 0 MongoDB repository interfaces.
+2020-04-14 11:47:40 [main] WARN  o.s.boot.actuate.endpoint.EndpointId -
+				Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-14 11:47:40 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=60ace320-6964-3488-b741-04b9f40e8e14
+2020-04-14 11:47:42 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-14 11:47:42 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Starting...
+2020-04-14 11:47:42 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Start completed.
+2020-04-14 11:47:42 [main] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-14 11:47:43 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-14 11:47:43 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-14 11:47:44 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-04-14 11:47:44 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-14 11:47:44 [main] INFO  c.n.config.DynamicPropertyFactory -
+				DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@53466b67
+2020-04-14 11:47:46 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-14 11:47:48 [main] INFO  d.f.e.process.runtime.ProcessControl -
+				stopOrDestroyProcess: process hasn't exited 
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				note: noprealloc may hurt performance in many applications
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.699+0000 I CONTROL  [initandlisten] MongoDB starting : pid=24755 port=46253 dbpath=/tmp/embedmongo-db-6830176c-abc1-4327-82ab-8a030d0332a5 64-bit host=ip-172-31-21-44
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.699+0000 I CONTROL  [initandlisten] db version v3.5.5
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.699+0000 I CONTROL  [initandlisten] git version: 98515c812b6fa893613f063dae568ff8319cbfbd
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.699+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.699+0000 I CONTROL  [initandlisten] modules: none
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.699+0000 I CONTROL  [initandlisten] build environment:
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.699+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.699+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.699+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 46253 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-6830176c-abc1-4327-82ab-8a030d0332a5", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.813+0000 I STORAGE  [initandlisten] 
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.814+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.815+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.824+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7276M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),,log=(enabled=false),
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.925+0000 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.925+0000 I CONTROL  [initandlisten] 
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.925+0000 I CONTROL  [initandlisten] ** NOTE: This is a development version (3.5.5) of MongoDB.
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.925+0000 I CONTROL  [initandlisten] **       Not recommended for production.
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.925+0000 I CONTROL  [initandlisten] 
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.957+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-6830176c-abc1-4327-82ab-8a030d0332a5/diagnostic.data'
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.990+0000 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.990+0000 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.991+0000 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2020-04-14 11:47:48 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.991+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2020-04-14 11:47:49 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:48.993+0000 I NETWORK  [thread1] waiting for connections on port 46253
+2020-04-14 11:47:49 [main] INFO  d.f.embed.mongo.MongodExecutable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@223c1a82
+2020-04-14 11:47:49 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:46253], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-14 11:47:49 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:46253 to client view of cluster
+2020-04-14 11:47:49 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:49.723+0000 I NETWORK  [thread1] connection accepted from 127.0.0.1:58196 #1 (1 connection now open)
+2020-04-14 11:47:49 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:47:49.806+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:58196 conn1: { driver: { name: "mongo-java-driver|legacy", version: "3.11.2" }, os: { type: "Linux", name: "Linux", architecture: "amd64", version: "4.15.0-96-generic" }, platform: "Java/Ubuntu/11.0.5+10-post-Ubuntu-2ubuntu116.04" }
+2020-04-14 11:47:49 [cluster-ClusterId{value='5e95a2e53a64093b0abba0c0', description='null'}-localhost:46253] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:46253
+2020-04-14 11:47:49 [cluster-ClusterId{value='5e95a2e53a64093b0abba0c0', description='null'}-localhost:46253] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:46253, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 5, 5]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=3830163}
+2020-04-14 11:47:50 [cluster-ClusterId{value='5e95a2e53a64093b0abba0c0', description='null'}-localhost:46253] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2020-04-14 11:47:52 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver -
+				Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-14 11:47:53 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 11:47:55 [main] WARN  c.n.c.sources.URLConfigurationSource -
+				No URLs will be polled as dynamic configuration sources.
+2020-04-14 11:47:55 [main] INFO  c.n.c.sources.URLConfigurationSource -
+				To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-14 11:47:56 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:48:00 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger -
+				You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-14 11:48:01 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2020-04-14 11:48:01 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2020-04-14 11:48:01 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2020-04-14 11:48:02 [main] INFO  c.s.a.AccountmanagerApplicationTests -
+				Started AccountmanagerApplicationTests in 26.757 seconds (JVM running for 57.187)
+2020-04-14 11:48:03 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:48:03 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-14 11:48:03 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2020-04-14 11:48:03 [SpringContextShutdownHook] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2020-04-14 11:48:03 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2020-04-14 11:48:03 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application ACCOUNTMANAGER with eureka with status DOWN
+2020-04-14 11:48:03 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.534+0000 I -        [conn1] end connection 127.0.0.1:58196 (1 connection now open)
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.553+0000 I NETWORK  [thread1] connection accepted from 127.0.0.1:58218 #2 (1 connection now open)
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.569+0000 I COMMAND  [conn2] terminating, shutdown command received
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.570+0000 I NETWORK  [conn2] shutdown: going to close listening sockets...
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.570+0000 I NETWORK  [conn2] closing listening socket: 7
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.570+0000 I NETWORK  [conn2] closing listening socket: 8
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.571+0000 I NETWORK  [conn2] removing socket file: /tmp/mongodb-46253.sock
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.571+0000 I NETWORK  [conn2] shutdown: going to flush diaglog...
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.571+0000 I FTDC     [conn2] Shutting down full-time diagnostic data capture
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.576+0000 I STORAGE  [conn2] WiredTigerKVEngine shutting down
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.626+0000 I STORAGE  [conn2] shutdown: removing fs lock...
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.626+0000 I CONTROL  [conn2] now exiting
+2020-04-14 11:48:03 [Thread-12] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-04-14T11:48:03.626+0000 I CONTROL  [conn2] shutting down with code:0
+2020-04-14 11:48:03 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-14 11:48:03 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Shutdown initiated...
+2020-04-14 11:48:04 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Shutdown completed.

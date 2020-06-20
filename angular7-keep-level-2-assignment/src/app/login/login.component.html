@@ -1,0 +1,19 @@
+<strong *ngIf="submitMessage" class="error-message">{{submitMessage}}</strong>
+<form [formGroup] = "loginForm" (ngSubmit)="loginSubmit()">
+    <div>
+        <label for="username">Username</label>
+        <input class="username" matInput [formControl]='username'>
+        <small *ngIf="username.invalid && (username.dirty||username.touched)">Username is Mandatory Field</small>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input class="password" matInput type = 'password' [formControl]='password'>
+        <small *ngIf="password.invalid && (password.dirty||password.touched)">
+            <small *ngIf="password.errors.required">Password is Mandatory Field</small>
+            <small *ngIf="password.errors.minlength">Password must have minimum 6 characters</small>
+        </small>
+    </div>
+    <div>
+        <button type="submit" [disabled]="!loginForm.valid" mat-button>Submit</button>
+    </div>
+</form>

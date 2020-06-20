@@ -1,0 +1,53 @@
+mat-card{
+    display:flex;
+    flex-direction:column;
+    height:55vh;
+    width: 40vw;
+    text-align:center;
+    background-color: #f2f2f2;
+    margin: auto;
+    margin-bottom: 5vh;
+    margin-top:5vh;
+    border-radius:0px;
+}
+
+mat-card-title{
+    font-size: 1.2em;
+    padding-left: 15vw;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+.my-form{
+    display: flex;
+    flex-direction: column;
+    width:20vw;
+    margin:auto;
+}
+
+.label{
+    font-size: 1.2em;
+}
+
+mat-icon{
+    margin-right: 1em;
+}
+
+.matInputdata{
+    font-size: 1.2em;
+}
+
+@media(max-width: 576px) { 
+    mat-card{
+        width: 50vw;
+    }
+
+    mat-card-title{
+        font-size: 1em;
+        padding-top:2vh;
+    }
+
+    .my-form{
+        width:30vw;
+    }
+}

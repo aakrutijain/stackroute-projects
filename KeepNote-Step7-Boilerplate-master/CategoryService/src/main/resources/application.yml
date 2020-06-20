@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+ #     authentication-database:
+      database: CategoryServiceDB
+      port: 27071
+      host: localhost

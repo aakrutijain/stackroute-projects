@@ -1,0 +1,77 @@
+h1 {
+    font-size: 3em;
+    margin: 0.2em auto;
+    color: #343a40;
+}
+
+/* header container css */
+.bg-dark {
+    border-bottom: 2px solid #b4ddfa;
+}
+
+.navbar-dark .navbar-brand {
+    color: #b4ddfa;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #b4ddfa;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.btn {
+    background-color: #b4ddfa;
+    color: #343a40;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #343a40;
+    border: 2px solid #b4ddfa;
+    color: #b4ddfa;
+}
+
+/* carousel css */
+.carousel-caption h1 {
+    color: white;
+}
+
+/* feature section css */
+#features-section {
+    background-color: #343a40;
+}
+
+#features-section h1 {
+    color: white;
+}
+
+#features-section .fa {
+    color: #b4ddfa;
+}
+
+#features-section h3 {
+    padding: 1em;
+    color: #b4ddfa;
+}
+
+/* footer css */
+#footer-section {
+    background-color: #b4ddfa;
+    border-top: 2px solid #343a40;
+}
+
+#footer-section .fa {
+    font-size: 2em !important;
+    color: #343a40;
+    padding: 0.5em;
+}
+
+#footer-section .fa:hover {
+    cursor: pointer;
+    color: white;
+}

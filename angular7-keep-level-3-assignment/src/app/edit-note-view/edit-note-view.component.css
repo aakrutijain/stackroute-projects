@@ -1,0 +1,16 @@
+.noteInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.noteSubmit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.keep-c-note-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: 50px;
+}

@@ -1,0 +1,36 @@
+<mat-card class="example-card" *ngIf='gif'>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{gif.username}}</mat-card-title>
+    <mat-card-subtitle>{{gif.title}}</mat-card-subtitle>
+    <img mat-card-image [src]='gif.url' [alt]='gif.title'>
+    <mat-card-content>
+      <p>
+          {{gif.comments}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button class="addToBookmark" color="primary"
+        matToolTip="add to favourite list"
+        *ngIf="!fData && !rData"
+        (click)="addButtonClick(gif)"
+        mat-mini-fab
+      >
+      <mat-icon aria-label="fav button" class="icons">favorite_border</mat-icon>
+     
+      </button>
+  
+      <button mat-button  mat-mini-fab color="primary"
+      class="deleteButton"
+      *ngIf="fData"
+      matToolTip="delete gif from favourite collection"
+      (click)="deleteGifFromFavourite(gif)">
+        <mat-icon  aria-label="fav button" class="icons">delete</mat-icon>
+      </button>
+  
+  
+      <button mat-button  mat-mini-fab color="primary"
+      *ngIf="rData">
+        <mat-icon [matBadge]='gif.downloadCount'>grade</mat-icon>
+      </button>
+    </mat-card-actions>
+</mat-card>

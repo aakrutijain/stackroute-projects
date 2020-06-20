@@ -1,0 +1,32 @@
+2020-04-13 19:27:17 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.accountmanager.controller.AccountManagerControllerTest], using SpringBootContextLoader
+2020-04-13 19:27:17 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.accountmanager.controller.AccountManagerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-13 19:27:17 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.accountmanager.controller.AccountManagerControllerTest]: AccountManagerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-13 19:27:17 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.accountmanager.AccountmanagerApplication for test class com.stackroute.accountmanager.controller.AccountManagerControllerTest
+2020-04-13 19:27:17 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-13 19:27:17 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@51bf5add, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7905a0b8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@35a3d49f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@389b0789, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13d9cbf5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@478db956, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ca18a14, org.springframework.test.context.event.EventPublishingTestExecutionListener@c667f46, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@51bd8b5c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7b50df34, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b410b60, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2462cb01, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@19b843ba]
+2020-04-13 19:27:21 [main] INFO  c.s.a.c.AccountManagerControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-04-13 19:27:24 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 19:27:25 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2020-04-13 19:27:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2020-04-13 19:27:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 33 ms
+2020-04-13 19:27:25 [main] INFO  c.s.a.c.AccountManagerControllerTest -
+				Started AccountManagerControllerTest in 6.283 seconds (JVM running for 12.028)
+2020-04-13 19:27:25 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2020-04-13 19:27:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2020-04-13 19:27:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2020-04-13 19:27:25 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor -
+				Shutting down ExecutorService 'applicationTaskExecutor'

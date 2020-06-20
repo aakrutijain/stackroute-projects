@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaService.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZuulServer/ZuulServer.iml" filepath="$PROJECT_DIR$/ZuulServer/ZuulServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aakruti.jain-gipher-java-boilerplate.iml" filepath="$PROJECT_DIR$/aakruti.jain-gipher-java-boilerplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accountmanager/accountmanager.iml" filepath="$PROJECT_DIR$/accountmanager/accountmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gipher.iml" filepath="$PROJECT_DIR$/gipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/giphermanager/giphermanager.iml" filepath="$PROJECT_DIR$/giphermanager/giphermanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gipherrecommendersystem/gipherrecommendersystem.iml" filepath="$PROJECT_DIR$/gipherrecommendersystem/gipherrecommendersystem.iml" />
+    </modules>
+  </component>
+</project>

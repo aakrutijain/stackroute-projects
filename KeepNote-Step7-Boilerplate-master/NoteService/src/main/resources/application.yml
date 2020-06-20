@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      username: root
+      password: root123
+      database: NoteServiceDB
+      port: 27073
+      host: localhost

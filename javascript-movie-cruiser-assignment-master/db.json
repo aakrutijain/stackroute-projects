@@ -1,0 +1,31 @@
+{
+  "movies": [
+    {
+      "id": "101",
+      "title": "Movie 1",
+      "posterPath": "path 1"
+    },
+    {
+      "id": "102",
+      "title": "Movie 2",
+      "posterPath": "path 2"
+    },
+    {
+      "id": "103",
+      "title": "Movie 3",
+      "posterPath": "path 3"
+    },
+    {
+      "id": "104",
+      "title": "Movie 4",
+      "posterPath": "path 4"
+    },
+    {
+      "id": "105",
+      "title": "Movie 5",
+      "posterPath": "path 5"
+    }
+  ],
+  "favourites": [
+  ]
+}
